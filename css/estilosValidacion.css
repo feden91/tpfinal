@@ -1,0 +1,86 @@
+body {
+  margin: 0 auto;
+  color:#f0f0f0;
+  background:#3f51b5;
+  font-family:'Open Sans',sans-serif;
+}
+img{
+      border-style: ridge;
+    border-width: 13px;
+    border-radius: 12px;
+    border-color: #5ABFDE;
+}
+
+.form-control {
+    display: inline-block; !important;
+
+}
+.MiBotonUTNMenuInicio:hover{
+  background:red;
+}
+
+*{font-family:Arial}
+h1{width:660px;margin:10px auto;font-size:23px;text-align:center;padding:10px}
+h3{margin-left:45%;margin-top:20px;}
+p.alerta{border:1px solid gold;width:660px;margin:10px auto;padding:10px;text-align:center;font-family:Arial;font-size:13px}
+
+
+form {   border-radius: 12px;   background-color: rgba(199, 198, 245, 0.61);;width: 500px;font-size: 1.0em;color: #333;margin:50px auto;padding:0}
+legend {background:#ccc;padding:10px;font-size:13px;font-weight:bold}
+fieldset {border: 1px dotted #ccc;padding:10px}
+form legend, form label {color: #333;}
+
+
+fieldset p {padding: 5px 10px 7px;}
+input,textarea{border:1px solid #ccc;padding:5px;width:95%;font-size:12px}
+
+form label.error, label.error {color: red;font-style: italic}
+div.error { display: none; }
+
+
+input:focus,textarea:focus { border: 1px dotted black; }
+input.error,textarea.error { border: 1px dotted red; }
+form .submit { color: gray;width:150px }
+
+#mensaje{width:700px;margin:10px auto;text-align:center}
+
+.error1{
+    background-color: #BC1010;
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 6px;
+    padding: 6px 12px;
+    position: absolute;
+    width: 150px;
+}
+.error1:before{
+    border-color: transparent #BC1010 transparent transparent;
+    border-style: solid;
+    border-width: 6px 8px;
+    content: "";
+    display: block;
+    height: 0;
+    left: -16px;
+    position: absolute;
+    top: 8px;
+    width: 0;
+}
+.result_fail{
+    background: none repeat scroll 0 0 #BC1010;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+}
+.result_ok{
+    background: none repeat scroll 0 0 #1EA700;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+}
+
